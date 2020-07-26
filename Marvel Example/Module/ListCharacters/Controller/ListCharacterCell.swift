@@ -1,5 +1,5 @@
 //
-//  ListCharacterCellViewController.swift
+//  ListCharacterCell.swift
 //  Marvel Example
 //
 //  Created by Tiago Coelho on 23/7/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ListCharacterCellViewController: UITableViewCell {
+class ListCharacterCell: UITableViewCell {
     
     @IBOutlet weak var characterImg: UIImageView!
     @IBOutlet weak var characterName: UILabel!

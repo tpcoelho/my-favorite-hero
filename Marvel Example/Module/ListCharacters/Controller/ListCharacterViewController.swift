@@ -34,7 +34,7 @@ class ListCharacterViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let detailsVC = segue.destination as? CharacterDetailsViewController, let hero = sender as? Character {
+        if let detailsVC = segue.destination as? HeroDetailsViewController, let hero = sender as? Character {
             detailsVC.character = hero
         }
     }
@@ -79,7 +79,7 @@ extension ListCharacterViewController: UITableViewDelegate, UITableViewDataSourc
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
              // Section with character items
-            let cell = tableView.dequeueReusableCell(withIdentifier: reuseCellIdentifier, for: indexPath) as! ListCharacterCellViewController
+            let cell = tableView.dequeueReusableCell(withIdentifier: reuseCellIdentifier, for: indexPath) as! ListCharacterCell
             cell.model = self.model.characterList![indexPath.row]
             
             return cell

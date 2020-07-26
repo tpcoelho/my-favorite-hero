@@ -1,5 +1,5 @@
 //
-//  CharacterDetailsViewController.swift
+//  HeroDetailsViewController.swift
 //  Marvel Example
 //
 //  Created by Tiago Coelho on 25/7/20.
@@ -9,7 +9,7 @@
 
 import UIKit
 
-class CharacterDetailsViewController: UIViewController {
+class HeroDetailsViewController: UIViewController {
     
     @IBOutlet weak var avatarHeroImg: UIImageView!
     @IBOutlet weak var characterIdLabel: UILabel!
@@ -38,7 +38,6 @@ class CharacterDetailsViewController: UIViewController {
     
     func setImage(){
         let stringURL = "\(self.character?.thumbnail?.path ?? "")/portrait_fantastic.\(self.character?.thumbnail?.fileType ?? "")"
-        print(stringURL)
         guard let imageURL = URL(string: stringURL) else { return
         }
         DispatchQueue.global().async { [weak self] in

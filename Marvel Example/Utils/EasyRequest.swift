@@ -39,7 +39,7 @@ struct EasyRequest<Model: Codable>{
             }
             if error != nil {
                  // Handle error
-                 print("Request error: \(error)")
+                print("Request error: \(error!)")
             } else if
                 let data = data,
                 let response = response as? HTTPURLResponse,
