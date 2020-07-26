@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListCharacterLoadingCell" id="Y4w-sR-IcA" customClass="ListCharacterLoadingCell" customModule="Marvel_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y4w-sR-IcA" id="llG-d7-UMp">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="MlR-q6-KcM">
+                        <rect key="frame" x="197" y="12" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No more results :(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAH-jV-xdU">
+                        <rect key="frame" x="135" y="11.5" width="144" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AAH-jV-xdU" firstAttribute="centerY" secondItem="llG-d7-UMp" secondAttribute="centerY" id="0sJ-tn-WH5"/>
+                    <constraint firstItem="AAH-jV-xdU" firstAttribute="centerX" secondItem="llG-d7-UMp" secondAttribute="centerX" id="bAq-Lq-enx"/>
+                    <constraint firstItem="MlR-q6-KcM" firstAttribute="centerX" secondItem="llG-d7-UMp" secondAttribute="centerX" id="niS-zH-gaJ"/>
+                    <constraint firstItem="MlR-q6-KcM" firstAttribute="centerY" secondItem="llG-d7-UMp" secondAttribute="centerY" id="qhN-MK-drU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="activityIndicator" destination="MlR-q6-KcM" id="P0Z-Ai-JIi"/>
+                <outlet property="noResultLabel" destination="AAH-jV-xdU" id="Xqy-W3-wND"/>
+            </connections>
+            <point key="canvasLocation" x="48" y="41"/>
+        </tableViewCell>
+    </objects>
+</document>
