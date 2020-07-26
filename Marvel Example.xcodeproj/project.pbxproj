@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5429D90E24CC805C00467C30 /* HeroDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429D90D24CC805C00467C30 /* HeroDetailsViewController.swift */; };
-		54307E4E24CBA93F003F7DD2 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54307E4D24CBA93F003F7DD2 /* URLBuilder.swift */; };
 		544DF54224CD180200C9D12F /* ListCharacterLoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544DF54124CD180200C9D12F /* ListCharacterLoadingCell.xib */; };
 		544DF54424CD186800C9D12F /* ListCharacterLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544DF54324CD186800C9D12F /* ListCharacterLoadingCell.swift */; };
 		544DF54624CD2B1300C9D12F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544DF54524CD2B1300C9D12F /* ImageLoader.swift */; };
@@ -27,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		5429D90D24CC805C00467C30 /* HeroDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsViewController.swift; sourceTree = "<group>"; };
-		54307E4D24CBA93F003F7DD2 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
 		544DF54124CD180200C9D12F /* ListCharacterLoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCharacterLoadingCell.xib; sourceTree = "<group>"; };
 		544DF54324CD186800C9D12F /* ListCharacterLoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCharacterLoadingCell.swift; sourceTree = "<group>"; };
 		544DF54524CD2B1300C9D12F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 		54307E4C24CBA91A003F7DD2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				54307E4D24CBA93F003F7DD2 /* URLBuilder.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -256,7 +253,6 @@
 				54E7388324CA3E1B00FD9012 /* SceneDelegate.swift in Sources */,
 				5488D8A424CA5BCC00B04DA0 /* ListCharacterCell.swift in Sources */,
 				544DF54624CD2B1300C9D12F /* ImageLoader.swift in Sources */,
-				54307E4E24CBA93F003F7DD2 /* URLBuilder.swift in Sources */,
 				5488D8A824CA6BAD00B04DA0 /* EasyRequest.swift in Sources */,
 				5488D89D24CA4CB000B04DA0 /* ListCharacterViewController.swift in Sources */,
 				544DF54424CD186800C9D12F /* ListCharacterLoadingCell.swift in Sources */,
