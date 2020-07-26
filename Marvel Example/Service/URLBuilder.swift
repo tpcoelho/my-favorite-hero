@@ -11,8 +11,9 @@ import CryptoKit
 
 struct URLBuilder {
     
-    static let API_PUBLIC_KEY = "f593ce199d459407f34279dc757b0ba4"
-    static let API_PRIVATE_KEY = "2fbb811529de48d0819353be453e1d951416fc9d"
+    // Must change the keys
+    static let API_PUBLIC_KEY = ""
+    static let API_PRIVATE_KEY = ""
     static var BASE_URL = "https://gateway.marvel.com:443/v1/public"
     
     static func mountCharacterURL(offset: Int) -> String {
