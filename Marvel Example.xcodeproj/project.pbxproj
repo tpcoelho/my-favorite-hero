@@ -22,6 +22,7 @@
 		54E7388A24CA3E2300FD9012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E7388924CA3E2300FD9012 /* Assets.xcassets */; };
 		54E7388D24CA3E2300FD9012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E7388B24CA3E2300FD9012 /* LaunchScreen.storyboard */; };
 		54E7389824CA423C00FD9012 /* ListCharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E7389724CA423C00FD9012 /* ListCharacterCell.xib */; };
+		54ED251924CDEF9A00EB0C6E /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED251824CDEF9A00EB0C6E /* URLBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		54E7388C24CA3E2300FD9012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54E7388E24CA3E2300FD9012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54E7389724CA423C00FD9012 /* ListCharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCharacterCell.xib; sourceTree = "<group>"; };
+		54ED251824CDEF9A00EB0C6E /* URLBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		54307E4C24CBA91A003F7DD2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				54ED251824CDEF9A00EB0C6E /* URLBuilder.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				5488D8A024CA4DDD00B04DA0 /* ListCharacterViewModel.swift in Sources */,
 				54E7388124CA3E1B00FD9012 /* AppDelegate.swift in Sources */,
 				5488D8A224CA54E100B04DA0 /* Character.swift in Sources */,
+				54ED251924CDEF9A00EB0C6E /* URLBuilder.swift in Sources */,
 				54E7388324CA3E1B00FD9012 /* SceneDelegate.swift in Sources */,
 				5488D8A424CA5BCC00B04DA0 /* ListCharacterCell.swift in Sources */,
 				544DF54624CD2B1300C9D12F /* ImageLoader.swift in Sources */,
